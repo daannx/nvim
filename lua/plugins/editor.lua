@@ -139,10 +139,13 @@ return {
     {
         "lukas-reineke/indent-blankline.nvim",
         event = "LazyFile",
+        enabled = true,
         opts = {
             indent = {
-                char = "│",
-                tab_char = "│",
+                --char = "│",
+                --tab_char = "│",
+                char = "",
+                tab_char = "",
             },
             scope = { enabled = false },
             exclude = {
@@ -163,7 +166,6 @@ return {
             },
         },
         main = "ibl",
-        enabled = false,
     },
 
     --- Zen mode
