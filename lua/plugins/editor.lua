@@ -130,11 +130,6 @@ return {
         },
     },
 
-    --- Vista
-    {
-        "liuchengxu/vista.vim",
-    },
-
     --- Indent blankline
     {
         "lukas-reineke/indent-blankline.nvim",
