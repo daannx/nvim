@@ -3,4 +3,5 @@
 -- Add any additional autocmds here
 
 vim.g.autoformat = false
-
+vim.g.zig_fmt_autosave = false
+vim.lsp.inlay_hint.enable(false)
