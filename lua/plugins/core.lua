@@ -2,7 +2,14 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "kanagawa",
+            colorscheme = "kanagawa-lotus",
         },
     },
+
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            inlay_hints = { enabled = false },
+        },
+    }
 }
